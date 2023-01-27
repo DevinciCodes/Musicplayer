@@ -162,9 +162,10 @@ header .master_play{
     align-items: center;
     padding: 0px 20px;
     margin-top: 20px;
-    width: 100%
+    width: 100%;
+    border: 1px solid white;
     
-    
+   
 
 }
 
@@ -277,6 +278,7 @@ header .master_play .icon .bi:nth-child(2){
     width: 0%;
     height: 100%;
     top: 0;
+    transition: 1s linear;
  }
  header .master_play .bar .dot{
     position: absolute;
@@ -344,6 +346,7 @@ header .master_play .icon .bi:nth-child(2){
     width: 0%;
     height: 100%;
     top: 0;
+    transition: 1s linear;
  }
  header .master_play .vol .dot{
     position: absolute;
